@@ -1,4 +1,4 @@
 export interface Response {
  question:string;
- Response:string[];
+ response:string[];
 }

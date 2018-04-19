@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ApiSeviceService } from './api-sevice.service';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,6 +13,7 @@ import { ApiSeviceService } from './api-sevice.service';
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [ApiSeviceService],
   bootstrap: [AppComponent]
